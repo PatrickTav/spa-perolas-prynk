@@ -8,6 +8,7 @@ export const ContainerHeader = styled.header`
   height: 6rem;
   padding: 0 10px;
   align-items: center;
+  
 
   .image_logo {
     width: 6rem;

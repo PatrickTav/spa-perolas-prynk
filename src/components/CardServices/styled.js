@@ -42,15 +42,28 @@ export const Card = styled.div`
       margin: 0 auto;
       align-items: center;
       left: 25%;
+      transition:.4s;
     }
     .image_service img {
       position: absolute;
       width: 140px;
+      transition:.4s;
+    }
+
+    .image_service:hover{
+      width: 7rem;
+      height: 7rem;
+    }
+    .image_service img:hover{
+      width:160px;
     }
   }
 
   :hover {
-    width: 13rem;
-    height: 11rem;
+    background: #FA0CB7;
+    color: #fff;
   }
+
+
+  
 `;

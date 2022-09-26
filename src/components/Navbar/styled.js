@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const ContainerNav = styled.nav`
+ 
  .menu{
   display: none;
  }
   
-  ul {
+  .pages ul {
     display: flex;
     gap: 50px;
     list-style: none;
   }
-  li a{
+  .pages li a{
     text-decoration:none;
     font-size: 1.2rem;
     color: #FFF;
@@ -18,17 +19,18 @@ export const ContainerNav = styled.nav`
   }
 
  
-  li a:hover{
+  .pages li a:hover{
     color: #FF0088;
   }
   
 
   @media screen and (max-width:768px) {
-    ul{
+    .pages{
       display: none;
     }
     .menu{
       display: block;
     }
+    
   }
 `
